@@ -1,0 +1,41 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+
+    <!-- Primary Meta Tags -->
+    <title>Ocumetra</title>
+    <style>
+        df-messenger {
+         --df-messenger-bot-message: #878fac;
+         --df-messenger-button-titlebar-color: #28283D;
+         --df-messenger-chat-background-color: #fafafa;
+         --df-messenger-font-color: white;
+         --df-messenger-send-icon: #a7afac;
+         --df-messenger-user-message: #479b3d;
+         border-radius: 30px 30px 30px 10px; 
+        }
+
+        <style>
+
+</style>
+      </style>
+</head>
+
+<body>
+    <script src="js/bootstrap-bot.js"></script>
+
+    <df-messenger
+      chat-icon="https:&#x2F;&#x2F;testing.ocumetra.com&#x2F;static&#x2F;images&#x2F;logo.png"
+      chat-title="Ocumetra Assistant"
+      agent-id="48fde8b2-daec-43db-877e-16ebeedab7a6"
+      language-code="en"
+    ></df-messenger>
+    <script>
+        const dfMessenger = document.querySelector('df-messenger');
+        dfMessenger.renderCustomText('Custom text');
+    </script>
+</body>
+</html>
